@@ -31,6 +31,7 @@ bower_components
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
+build/Develop
 
 # Dependency directories
 node_modules/
@@ -51,7 +52,8 @@ typings/
 # Output of 'npm pack'
 *.tgz
 
-# Yarn Integrity file
+# Yarn
+yarn.lock
 .yarn-integrity
 
 # dotenv environment variables file
@@ -59,3 +61,10 @@ typings/
 
 # next.js build output
 .next
+
+# ItelliJ IDEA
+*.iml
+.idea
+
+# parcel-bundler cache
+.cache

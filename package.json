@@ -1,0 +1,18 @@
+{
+  "name": "BinarySwapKit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kineo2k/BinarySwapKit.git",
+  "author": "kineo2k <kineo2k@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "tslint": "^5.10.0",
+    "tslint-config-prettier": "^1.13.0",
+    "typescript": "^2.9.2"
+  },
+  "scripts": {
+    "clean": "rm -rf build/*",
+    "watch": "parcel watch src/Sample.ts --out-dir build/Develop --target node --no-source-maps",
+    "build": "parcel build src/Sample.ts --out-dir build/Release --target node --no-source-maps --no-cache"
+  }
+}
