@@ -11,4 +11,7 @@ const swapped = bbs.swap(binaryInput);
 const reversed = bbs.reverse(swapped);
 
 console.log(`swapped  => ${swapped}\nreversed => ${reversed}`);
+
+// swapped  => 24513670acd9bef8
+// reversed => 0123456789abcdef
 ```
